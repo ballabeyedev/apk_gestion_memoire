@@ -1,0 +1,65 @@
+.modifsupp {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.modifsupp thead {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.modifsupp th, .modifsupp td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.modifsupp tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.modifsupp tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.modifsupp a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.modifsupp a:hover {
+    text-decoration: underline;
+}
+
+.corbeille-link {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #d9534f; /* Couleur principale (rouge) */
+    transition: all 0.3s ease-in-out;
+}
+
+.corbeille-link i {
+    margin-left: 5px; /* Espace entre le texte et l'icône */
+    font-size: 20px; /* Taille de l'icône */
+    transition: transform 0.3s ease-in-out;
+}
+
+.corbeille-link:hover {
+    color: #c9302c; /* Couleur plus sombre au survol */
+    text-decoration: underline;
+}
+
+.corbeille-link:hover i {
+    transform: rotate(20deg); /* Petite rotation au survol */
+    color: #ac2925; /* Couleur de l'icône au survol */
+}
+
+#parfait{
+    columns: #2a9409;
+}

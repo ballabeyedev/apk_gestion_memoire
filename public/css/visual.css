@@ -1,0 +1,17 @@
+/* Section de statistiques */
+.stats {
+    margin-top: 20px;
+    padding: 20px;
+    background: #f9f9ff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.stats p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.stats strong {
+    color: #0056b3;
+}

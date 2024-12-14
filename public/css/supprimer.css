@@ -1,0 +1,33 @@
+form.supprimer {
+    display: inline; /* Aligne le formulaire en ligne */
+    margin-left: 10px;
+    position: relative; /* Permet de déplacer le bouton sans impacter les autres éléments */
+    padding: 4px 4px; /* Taille réduite pour un bouton discret */
+    top: -1px;
+}
+
+form.supprimer button {
+    background-color: #dc3545; /* Rouge pour indiquer la suppression */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 2px 2px; /* Taille réduite pour un bouton discret */
+    font-size: 12px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+form.supprimer button i {
+    margin-right: 4px; /* Espace entre l'icône et le texte */
+    font-size: 15px; /* Taille de l'icône en accord avec le bouton */
+}
+
+form.supprimer button:hover {
+    background-color: #c82333; /* Couleur plus sombre au survol */
+}
+
+form.supprimer button:active {
+    transform: scale(0.95); /* Réduit légèrement le bouton au clic */
+}

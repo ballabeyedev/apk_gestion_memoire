@@ -1,0 +1,54 @@
+.footer {
+    background-color: #282c34; /* Couleur de fond */
+    color: #ffffff; /* Couleur du texte */
+    padding: 20px; /* Espacement intérieur */
+    text-align: center; /* Centre le texte */
+}
+
+.footer-content {
+    margin-bottom: 20px; /* Espacement en bas */
+}
+
+.footer h2 {
+    margin-bottom: 10px; /* Espacement en bas */
+    font-size: 1.8rem; /* Taille de la police */
+}
+
+.footer-links ul {
+    list-style: none; /* Enlève les puces de la liste */
+    padding: 0; /* Enlève le remplissage */
+}
+
+.footer-links li {
+    display: inline; /* Affiche les liens en ligne */
+    margin: 0 15px; /* Espacement entre les liens */
+}
+
+.footer-links a {
+    color: #ffffff; /* Couleur des liens */
+    text-decoration: none; /* Enlève le soulignement */
+    transition: color 0.3s; /* Transition pour la couleur */
+}
+
+.footer-links a:hover {
+    color: #007BFF; /* Couleur au survol */
+}
+
+.footer-bottom {
+    margin-top: 20px; /* Espacement en haut */
+}
+
+.social-links {
+    margin-top: 10px; /* Espacement en haut */
+}
+
+.social-icon {
+    color: #ffffff; /* Couleur des icônes */
+    margin: 0 10px; /* Espacement entre les icônes */
+    font-size: 1.5rem; /* Taille des icônes */
+    transition: color 0.3s; /* Transition pour la couleur */
+}
+
+.social-icon:hover {
+    color: #007BFF; /* Couleur au survol */
+}
